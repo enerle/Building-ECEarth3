@@ -6,7 +6,7 @@ Workflow for EC3
 
 **Build Configuration**
 
-cd /nobackup/rossby27/proj/optimesm/sm_renna/optimesm/sources
+    cd /nobackup/rossby27/proj/optimesm/sm_renna/optimesm/sources
     . module_list.sh 
     module load Mambaforge/23.3.1-1-hpc1 
     mamba activate ecearth
