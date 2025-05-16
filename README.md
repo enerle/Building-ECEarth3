@@ -16,6 +16,8 @@ Create
 
     touch module_list.sh
 
+where we call the next modules
+
     module purge
     ml Mambaforge/23.3.1-1-hpc1
     ml buildenv-intel/2023a-eb
@@ -27,7 +29,7 @@ Create
     ml PETSc/3.17.4-hpc1
     ml NCO/4.7.9-nsc5-intel-2018a-eb
 
-Then we create the Python environment in Mambaforge
+Then we create the Python environment in Mambaforge (locate ../)
 
     module load Mambaforge/23.3.1-1-hpc1 
     mamba create -n ecearth3 -f environment.yml  
@@ -35,9 +37,13 @@ Then we create the Python environment in Mambaforge
 
 **Build Configuration**
 
+We load the environment and required modules
+
     . module_list.sh 
     module load Mambaforge/23.3.1-1-hpc1 
     mamba activate ecearth
+
+Run configuration file
     util/ec-conf/ec-conf3 -p nsc-tetralith-el9-intel-intelmpi config-build.xml
 
 **Compiling Oasis**
