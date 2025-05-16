@@ -17,24 +17,24 @@ cd /nobackup/rossby27/proj/optimesm/sm_renna/optimesm/sources
     make -f Makefile.ece pyoasis
 
 **Compiling XIOS**
-    ...
+    dummy
 
 **Compiling NEMO**
-    ...
+    dummy
 
 **Compiling IFS**
-    ...
+    dummy
 
 **Compiling Runoff-mapper**
-    ...
+    dummy
 
 **Compiling ISM-mapper**
-    ...
+    dummy
 
 **Compiling LPJ-Guess**
-    ...
+    dummy
 
 **Compiling Pysm**
-    ...
+    dummy
     
 nice
