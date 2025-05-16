@@ -47,11 +47,12 @@ Workflow for EC3
 **Compiling Runoff-mapper**
     
     cd runoff-mapper/src
-    
+    make
 
 **Compiling ISM-mapper**
 
     cd ism-mapper/
+    cmake
 
 **Compiling LPJ-Guess**
 
