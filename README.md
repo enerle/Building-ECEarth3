@@ -6,7 +6,13 @@ Workflow for EC3
 
 **Preliminary**
 
-    cd /nobackup/rossby27/proj/optimesm/sm_renna/optimesm/sources
+Get code 
+
+    svn checkout https://svn.ec-earth.org/ecearth3/branches/projects/optimesm
+
+Move here
+
+    cd /sources
 
 Modify 
 
