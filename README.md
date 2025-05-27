@@ -104,17 +104,16 @@ Run configuration file
 2. eccodes missing GRIB table
 
 
-    cd pism/build/
-    cmake -C ../pism.nsc-tetralith-el9.cmake --fresh ..
-    gmake -j 6 all
-   
-
     cd sources/util/grib_table_126
     mamba activate ecearth3
     ./define_table_126.sh 
 
 
+**Compiling LPJ-Guess**
 
+    cd lpjg_v4p1/build/
+    cmake ..
+    make
 
     
 
