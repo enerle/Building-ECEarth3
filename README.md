@@ -99,8 +99,26 @@ Run configuration file
 
 **Extras**
 
-We need to create an environment setting numpy <2 from previous one
+We need to create an environment setting numpy <2 
 
+    channels:
+        - conda-forge
+        - nodefaults
+    
+    dependencies:
+        - pip
+        - cmake>=3.3
+        - python>=3.8
+        - xarray
+        - numpy <2
+        - pandas
+        - netcdf4
+        - f90nml
+        - pyyaml
+        - cftime
+        - pip:
+            - mpi4py
+            
 ECCodes missing GRIB table
 
     cd sources/util/grib_table_126
