@@ -96,5 +96,18 @@ Run configuration file
     cd pism/build/
     cmake -C ../pism.nsc-tetralith-el9.cmake --fresh ..
     gmake -j 6 all
+
+
+**Not documented**
+
+1. We need to create an environment setting numpy <2
+2. eccodes missing GRIB table
+
+    cd sources/util/grib_table_126
+    mamba activate ecearth3
+    ./define_table_126.sh 
+
+
+
     
 
